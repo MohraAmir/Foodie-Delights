@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.Left-Half,.Right-Half {
+    width: 50%;
+}
+.Left-Half {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+.Left-Half img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.welcome {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.welcome h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+font-weight: bold;
+}
+.welcome p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Right-Half {
+    align-items: center;
+    justify-content: center;
+    
+}
+.title-subtitle{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+.subtitle {
+    text-align: center;
+    color: #fc0000
+}
+.input {
+    text-align: center;
+align-items: center;
+    justify-content: center;
+}
+.input input {
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.input input:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 52%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e00000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #ff2121;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Done a{
+ color: red;
+ text-decoration:none;
+ font-weight: bold;
+ transition: .3s;
+}
+.Done a:hover {
+    color: #ff2121;
+    text-decoration: underline;
+}
+.social {
+    padding: 0px 30%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.social-f,.social-G {
+    width: 70px;
+        height: 70px;
+        border: none;
+        border-radius: 50%;
+        background: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        font-size: 40px;
+}
+.social-f:hover {
+    background-color: #3277f7;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.social-G:hover {
+    background-color: #ff6a6a;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
